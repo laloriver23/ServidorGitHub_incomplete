@@ -20,6 +20,10 @@ app.use ('/consOficio', require ('./routes/oficio'));
 app.use ('/regiOficio', require ('./routes/oficio'));
 app.use ('/consUsuarioroll', require ('./routes/usuarioroll'));
 app.use ('/regiUsuarioroll', require ('./routes/usuarioroll'));
+app.use ('/consCronograma', require ('./routes/cronograma'));
+app.use ('/regiCronograma', require ('./routes/cronograma'));
+app.use ('/consAreaInvest', require ('./routes/areainvest'));
+app.use ('/regiAreaInvest', require ('./routes/areainvest'));
 
 //app.use (require ('./routes/index'));
 //app.get('/', (req, res) => {
