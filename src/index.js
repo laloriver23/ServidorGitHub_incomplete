@@ -28,6 +28,9 @@ app.use ('/consDivision', require ('./routes/division'));
 app.use ('/regiDivision', require ('./routes/division'));
 app.use ('/consProyrecursos', require ('./routes/proyrecursos'));
 app.use ('/regiProyrecursos', require ('./routes/proyrecursos'));
+app.use ('/consRecursos', require ('./routes/recursos'));
+app.use ('/regiRecursos', require ('./routes/recursos'));
+
 
 //app.use (require ('./routes/index'));
 //app.get('/', (req, res) => {
