@@ -26,6 +26,9 @@ app.use ('/consAreaInvest', require ('./routes/areainvest'));
 app.use ('/regiAreaInvest', require ('./routes/areainvest'));
 app.use ('/consDivision', require ('./routes/division'));
 app.use ('/regiDivision', require ('./routes/division'));
+app.use ('/consProyrecursos', require ('./routes/proyrecursos'));
+app.use ('/regiProyrecursos', require ('./routes/proyrecursos'));
+
 //app.use (require ('./routes/index'));
 //app.get('/', (req, res) => {
   //res.send('hola mundo');
