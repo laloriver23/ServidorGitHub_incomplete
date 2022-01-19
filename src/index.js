@@ -24,7 +24,8 @@ app.use ('/consCronograma', require ('./routes/cronograma'));
 app.use ('/regiCronograma', require ('./routes/cronograma'));
 app.use ('/consAreaInvest', require ('./routes/areainvest'));
 app.use ('/regiAreaInvest', require ('./routes/areainvest'));
-
+app.use ('/consDivision', require ('./routes/division'));
+app.use ('/regiDivision', require ('./routes/division'));
 //app.use (require ('./routes/index'));
 //app.get('/', (req, res) => {
   //res.send('hola mundo');
