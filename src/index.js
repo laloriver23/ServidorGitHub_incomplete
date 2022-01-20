@@ -42,6 +42,8 @@ app.use ('/consRolls', require ('./routes/rolls'));
 app.use ('/regiRolls', require ('./routes/rolls'));
 app.use ('/consPeriodo', require ('./routes/periodo'));
 app.use ('/regiPeriodo', require ('./routes/periodo'));
+app.use ('/consEvalProy', require ('./routes/evalproy'));
+app.use ('/regiEvalProy', require ('./routes/evalproy'));
 
 //app.use (require ('./routes/index'));
 //app.get('/', (req, res) => {
