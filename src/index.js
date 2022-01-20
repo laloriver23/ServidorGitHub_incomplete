@@ -32,7 +32,8 @@ app.use ('/consRecursos', require ('./routes/recursos'));
 app.use ('/regiRecursos', require ('./routes/recursos'));
 app.use ('/consActivproye', require ('./routes/activproye'));
 app.use ('/regiActivproye', require ('./routes/activproye'));
-
+app.use ('/consProyecto', require ('./routes/proyecto'));
+app.use ('/regiProyecto', require ('./routes/proyecto'));
 //app.use (require ('./routes/index'));
 //app.get('/', (req, res) => {
   //res.send('hola mundo');
