@@ -38,6 +38,8 @@ app.use ('/consRegAvance', require ('./routes/regavance'));
 app.use ('/regiRegAvance', require ('./routes/regavance'));
 app.use ('/consNivelAca', require ('./routes/nivelaca'));
 app.use ('/regiNivelAca', require ('./routes/nivelaca'));
+app.use ('/consRolls', require ('./routes/rolls'));
+app.use ('/regiRolls', require ('./routes/rolls'));
 
 //app.use (require ('./routes/index'));
 //app.get('/', (req, res) => {
