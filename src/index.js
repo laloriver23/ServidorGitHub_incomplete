@@ -40,6 +40,8 @@ app.use ('/consNivelAca', require ('./routes/nivelaca'));
 app.use ('/regiNivelAca', require ('./routes/nivelaca'));
 app.use ('/consRolls', require ('./routes/rolls'));
 app.use ('/regiRolls', require ('./routes/rolls'));
+app.use ('/consPeriodo', require ('./routes/periodo'));
+app.use ('/regiPeriodo', require ('./routes/periodo'));
 
 //app.use (require ('./routes/index'));
 //app.get('/', (req, res) => {
