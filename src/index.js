@@ -34,6 +34,11 @@ app.use ('/consActivproye', require ('./routes/activproye'));
 app.use ('/regiActivproye', require ('./routes/activproye'));
 app.use ('/consProyecto', require ('./routes/proyecto'));
 app.use ('/regiProyecto', require ('./routes/proyecto'));
+app.use ('/consRegAvance', require ('./routes/regavance'));
+app.use ('/regiRegAvance', require ('./routes/regavance'));
+app.use ('/consNivelAca', require ('./routes/nivelaca'));
+app.use ('/regiNivelAca', require ('./routes/nivelaca'));
+
 //app.use (require ('./routes/index'));
 //app.get('/', (req, res) => {
   //res.send('hola mundo');
