@@ -30,7 +30,8 @@ app.use ('/consProyrecursos', require ('./routes/proyrecursos'));
 app.use ('/regiProyrecursos', require ('./routes/proyrecursos'));
 app.use ('/consRecursos', require ('./routes/recursos'));
 app.use ('/regiRecursos', require ('./routes/recursos'));
-
+app.use ('/consActivproye', require ('./routes/activproye'));
+app.use ('/regiActivproye', require ('./routes/activproye'));
 
 //app.use (require ('./routes/index'));
 //app.get('/', (req, res) => {
