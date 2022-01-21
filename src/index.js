@@ -44,7 +44,8 @@ app.use ('/consPeriodo', require ('./routes/periodo'));
 app.use ('/regiPeriodo', require ('./routes/periodo'));
 app.use ('/consEvalProy', require ('./routes/evalproy'));
 app.use ('/regiEvalProy', require ('./routes/evalproy'));
-
+app.use ('/consEvaluacion', require ('./routes/evaluacion'));
+app.use ('/regiEvaluacion', require ('./routes/evaluacion'));
 //app.use (require ('./routes/index'));
 //app.get('/', (req, res) => {
   //res.send('hola mundo');
